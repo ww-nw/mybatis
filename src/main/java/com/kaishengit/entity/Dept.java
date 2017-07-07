@@ -1,9 +1,14 @@
 package com.kaishengit.entity;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Dept {
+public class Dept implements Serializable{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Integer id;
 	private String daptName;
 	private List<User> userList;
